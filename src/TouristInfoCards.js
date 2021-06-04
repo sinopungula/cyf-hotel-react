@@ -5,7 +5,11 @@ const TouristInfoCards = () => {
     <div className="container">
       <div className="row align-items-start">
         <div className="card col">
-          <img src="..." className="card-img-top" alt="..." />
+          <img
+            src="glasgow.jpego"
+            className="card-img-top"
+            alt="glasgow-city"
+          />
           <div className="card-body">
             <h5 className="card-title">Glasgow</h5>
             <p className="card-text">
@@ -18,7 +22,11 @@ const TouristInfoCards = () => {
           </div>
         </div>
         <div className="card col">
-          <img src="..." className="card-img-top" alt="..." />
+          <img
+            src="manchester.jpeg"
+            className="card-img-top"
+            alt="manchester"
+          />
           <div className="card-body">
             <h5 className="card-title">Manchester</h5>
             <p className="card-text">
@@ -31,7 +39,11 @@ const TouristInfoCards = () => {
           </div>
         </div>
         <div className="card col">
-          <img src="..." className="card-img-top" alt="..." />
+          <img
+            src="/Users/admin/Desktop/JS/React 1/cyf-hotel-react/london.jpeg"
+            className="card-img-top"
+            alt="London"
+          />
           <div className="card-body">
             <h5 className="card-title">London</h5>
             <p className="card-text">
