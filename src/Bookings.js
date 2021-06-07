@@ -13,7 +13,8 @@ const Bookings = () => {
       <div className="container">
         <Search search={search} />
         <SearchResults
-          results={FakeBookings.map((el, idx) => {
+          resArray={results.Object.keys()}
+          resArray={FakeBookings.map((el, idx) => {
             return <tbody key={idx}>{el}</tbody>;
           })}
         />
